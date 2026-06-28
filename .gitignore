@@ -1,0 +1,7 @@
+# generated reports
+report.html
+*.report.*
+triage.md
+*.local.*
+Thumbs.db
+.DS_Store

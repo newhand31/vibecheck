@@ -1,0 +1,6 @@
+# 啟用 donate(gate:你先去開帳號,再把對應那行取消註解):
+# - Ko-fi(台灣最快,走 PayPal):開 https://ko-fi.com → 取消下一行註解填 handle
+# ko_fi: yourhandle
+# - GitHub Sponsors(需先 enroll,走 Stripe Connect,台灣可用性自行確認):
+# github: [newhand31]
+# - Buy Me a Coffee(台灣不可用,出款綁 Stripe,略過)
