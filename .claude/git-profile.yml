@@ -1,0 +1,12 @@
+# git-profile.yml — vibecheck (vibecheck (PUBLIC))
+# 被 ~/.claude/skills/git-status 與 git-workflow 讀取。全欄位可選。
+
+mode: pr-flow               # B 型:feat 分支 → PR → merge --no-ff → delete
+default_branch: main
+max_active_branches: 3
+tag_style: annotated
+push_policy: explicit
+
+gate:                       # 里程碑 gate(規則見 ~/.claude/skills/git-workflow §里程碑 Gate)
+  merge_to_main: code-review      # 2026-12 後改 codex-review
+  release: code-review --high
